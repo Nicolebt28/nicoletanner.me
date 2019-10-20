@@ -1,0 +1,14 @@
+.contact {
+  background-color: #38ada9;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  font-size: 25px;
+}
+
+.contact__link {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+}
