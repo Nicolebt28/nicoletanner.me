@@ -1,9 +1,10 @@
 .contact {
   background-color: #38ada9;
-  color: white;
   text-align: center;
   padding: 1%;
   font-size: 25px;
+  bottom: 0px;
+  position: relative;
 }
 
 .contact__link {
