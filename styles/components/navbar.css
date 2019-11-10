@@ -3,26 +3,24 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: hsla(198, 12%, 73%)
+  background-color: rgb(177, 189, 194);
 }
 
 .navbar__name {
   color: #ffffff;
   font-size: 45px;
   padding-left: 20px;
-  margin-left: 0px;
   margin-top: 10px;
-  margin-bottom: 2px;
 }
 
 .navbar__link {
-  list-style-type: none;
   float: left;
   display: float;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 25px;
   color: #ffffff;
   text-decoration: none;
+  line-height: 4px;
 }
