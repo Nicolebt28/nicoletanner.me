@@ -17,7 +17,7 @@
   padding-left: 10px;
 }
 
-.hero__title {
+.hero__title--home {
   font-size: 45px;
   color:#38ada9;
   text-align: left;
@@ -26,9 +26,69 @@
   margin-right: 25%;
 }
 
+.hero__title {
+  font-size: 45px;
+  color:#38ada9;
+  text-align: left;
+  margin-top: 18%;
+  margin-left: 26.5%;
+  margin-right: 25%;
+}
+.hero__subtitle--home {
+  font-size: 30px;
+  color: #b2bec3;
+  text-align: left;
+  margin-left: 26.5%;
+}
+
 .hero__subtitle {
   font-size: 30px;
   color: #b2bec3;
   text-align: left;
   margin-left: 26.5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero__title--home {
+    margin-top: 20%;
+    margin-left: 35%;
+    margin-right: 15%;
+  }
+
+  .hero__subtitle--home {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero__title--home {
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title--home {
+    margin-top: 30%;
+    margin-left: 45%;
+    margin-right: 15%;
+  }
+
+  .hero__subtitle--home {
+    margin-left: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero__title--home {
+    font-size: 30px;
+    margin-top: 40%;
+    margin-left: 60%;
+    margin-right: 10%;
+  }
+
+  .hero__subtitle--home {
+    font-size: 20px;
+    margin-left: 60%;
+    margin-right: 5%;
+  }
 }

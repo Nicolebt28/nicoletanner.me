@@ -11,3 +11,17 @@
 .education__section {
   justify-self: center;
 }
+
+@media screen and (max-width: 800px) {
+  .education {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 0px;
+  }
+
+  .education__section {
+    margin-top: 0px;
+    margin-bottom:  0px;
+    padding: 0px;
+  }
+}

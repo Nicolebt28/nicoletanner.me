@@ -47,3 +47,13 @@
   font-size: 24px;
   color: #b2bec3;
 }
+
+@media screen and (max-width: 600px) {
+  .content {
+    padding-top: 0px;
+  }
+
+  .content__img {
+    margin-top: 5px;
+  }
+}
