@@ -1,11 +1,77 @@
 .education {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 5%;
   margin-left: 50px;
   margin-right: 50px;
   justify-content: center;
   padding: 40px;
+}
+
+.education__img1 {
+  grid-area: 1 / 1 / 1 / 1;
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.education__text1 {
+  grid-area: 1 / 2 / 1 / 2;
+}
+
+.education__img2 {
+  grid-area: 2 / 1 / 2 / 1;
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.education__text2 {
+  grid-area: 2 / 2 / 2 / 2;
+}
+
+.education__img3 {
+  grid-area: 3 / 1 / 3 / 1;
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.education__text3 {
+  grid-area: 3 / 2 / 3 / 2;
+}
+
+.education__img4 {
+  grid-area: 4 / 1 / 4 / 1;
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.education__text4 {
+  grid-area: 4 / 2 / 4 / 2;
+}
+
+.education__title{
+  font-size: 35px;
+  font-family: 'Damion', cursive;
+  color: #008b8b;
+  width: 100%;
+}
+
+.education__subtitle {
+  font-size: 25px;
+  color: #5C575C;
+}
+
+.education__listitem {
+  font-size: 20px;
+  color: #5C575C;
 }
 
 .education__section {

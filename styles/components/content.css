@@ -4,21 +4,21 @@
 
 .content__title {
   font-size: 35px;
-  color: #38ada9;
+  color: #008b8b;
   width: 100%;
   text-align: center;
 }
 
 .content__subtitle {
   text-align: center;
-  color: #b2bec3;
+  color: #5C575C;
   font-size: 25px;
 }
 
 .content__copy {
   text-align: center;
   font-size: 24px;
-  color: #b2bec3;
+  color: #5C575C;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -43,14 +43,14 @@
 .content__listitem {
   list-style-position: outside;
   text-align: left;
-  line-height: 30px;
-  font-size: 24px;
-  color: #b2bec3;
+  line-height: 22px;
+  font-size: 20px;
+  color: #5C575C;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 000px) {
   .content {
-    padding-top: 0px;
+    padding-top: 10px;
   }
 
   .content__img {

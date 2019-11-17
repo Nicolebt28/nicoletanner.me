@@ -3,14 +3,14 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(177, 189, 194);
+  background-color: #dadfe1;
 }
 
 .navbar__name {
-  color: #ffffff;
+  color: #008b8b;
   font-size: 45px;
   padding-left: 20px;
-  margin-top: 10px;
+  padding-top: 20px;
   font-family: 'Damion', cursive;
   text-decoration: none;
 }
@@ -20,13 +20,15 @@
   display: float;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
   font-size: 25px;
-  color: #ffffff;
+  font-weight: bold;
+  color: #008b8b;
   text-decoration: none;
   line-height: 4px;
 }
+
 
 @media screen and (max-width: 675px) {
   .navbar__name {
