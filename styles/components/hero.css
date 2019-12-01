@@ -1,5 +1,5 @@
 .hero--home {
-  background-image: url("https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("hero2.jpg");
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;               
@@ -9,17 +9,17 @@
 }
 
 .hero {
-  background-image: url("https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("hero2.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 400px;
-  padding-top: 40px;
-  padding-left: 10px;
+  padding-top: 20px;
 }
 
 .hero__title--home {
+  font-family: 'Damion', cursive;
   font-size: 45px;
-  color:#38ada9;
+  color:#008b8b;
   text-align: left;
   margin-top: 18%;
   margin-left: 26.5%;
@@ -27,23 +27,25 @@
 }
 
 .hero__title {
+  font-family: 'Damion', cursive;
   font-size: 45px;
-  color:#38ada9;
+  color: #008b8b;
   text-align: left;
   margin-top: 18%;
   margin-left: 26.5%;
   margin-right: 25%;
 }
+
 .hero__subtitle--home {
   font-size: 30px;
-  color: #b2bec3;
+  color: #5C575C;
   text-align: left;
   margin-left: 26.5%;
 }
 
 .hero__subtitle {
   font-size: 30px;
-  color: #b2bec3;
+  color: #5C575C;
   text-align: left;
   margin-left: 26.5%;
 }
@@ -60,13 +62,21 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) { 
+  .hero{
+    height: 375px;
+  }
+
   .hero__title--home {
     margin-top: 25%;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .hero {
+    height: 300px;
+  }
+
   .hero__title--home {
     margin-top: 30%;
     margin-left: 45%;
@@ -79,6 +89,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .hero {
+    height: 225px;
+  }
+
   .hero__title--home {
     font-size: 30px;
     margin-top: 40%;
@@ -90,5 +104,75 @@
     font-size: 20px;
     margin-left: 60%;
     margin-right: 5%;
+  }
+
+  .hero__title {
+    font-size: 35px;
+  }
+
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero--home {
+    background-image: url("hero2mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;               
+    padding-top: 40px;
+  }
+  
+  .hero {
+    padding-top: 50px;
+    height: 150px;
+  }
+
+  .hero__title--home {
+    font-size: 30px;
+    margin-top: 40%;
+    margin-left: 62%;
+    margin-right: 5%;
+  }
+
+  .hero__subtitle--home {
+    font-size: 20px;
+    margin-left: 62%;
+    margin-right: 5%;
+  }
+
+  .hero__title {
+    font-size: 35px;
+    margin-top: 10%;
+  }
+
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero__title {
+    font-size: 25px;
+    margin-top: 10%;
+  }
+
+  .hero__subtitle {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero {
+    height: 100px;
+  }
+  
+  .hero__title {
+    font-size: 25px;
+    margin-top: 8%;
+  }
+
+  .hero__subtitle {
+    font-size: 15px;
   }
 }

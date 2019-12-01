@@ -1,15 +1,21 @@
 .contact {
-  background-color: #38ada9;
+  background-color: #f7f7f7;
   text-align: center;
   padding: 1%;
-  font-size: 25px;
+  font-size: 12px;
   bottom: 0px;
   position: relative;
 }
 
+.contact__label {
+  font-family: 'Damion', cursive;
+  font-size: 35px;
+  color: #008b8b;
+}
+
 .contact__link {
-  color: white;
-  text-align: center;
-  font-size: 25px;
+  color: #5C575C;
+  font-size: 30px;
+  line-height: 35px;
   text-decoration: none;
 }
