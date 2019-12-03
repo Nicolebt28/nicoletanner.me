@@ -59,3 +59,22 @@
     font-size: 15px;
   }
 } 
+
+/* mobile devices*/
+@media only screen and (max-width: 500px) {
+  .navbar__name {
+    color: #008b8b;
+    font-size: 35px;
+    padding-left: 5px;
+    padding-top: 15px;
+  }
+  
+  .navbar__link {
+    float: left;
+    display: float;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+} 

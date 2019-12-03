@@ -58,3 +58,18 @@
   }
 }
 
+/* mobile devices */
+@media only screen and (max-width: 500px) {
+  .content {
+    padding-top: 0px;
+  }
+
+  .content__title{
+    text-align: center;
+  }
+
+  .content__subtitle{
+    text-align: center;
+  }
+}
+
