@@ -176,3 +176,66 @@
     font-size: 15px;
   }
 }
+
+/* mobile devices */
+@media only screen and (max-width: 500px) {
+  .hero--home {
+    background-image: url("hero2mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;               
+    padding-top: 40px;
+  }
+  
+  .hero {
+    padding-top: 50px;
+    height: 150px;
+  }
+
+  .hero__title--home {
+    font-size: 30px;
+    margin-top: 40%;
+    margin-left: 62%;
+    margin-right: 5%;
+  }
+
+  .hero__subtitle--home {
+    font-size: 20px;
+    margin-left: 62%;
+    margin-right: 5%;
+  }
+
+  .hero__title {
+    font-size: 35px;
+    margin-top: 10%;
+  }
+
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero__title {
+    font-size: 25px;
+    margin-top: 10%;
+  }
+
+  .hero__subtitle {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hero {
+    height: 100px;
+  }
+  
+  .hero__title {
+    font-size: 25px;
+    margin-top: 8%;
+  }
+
+  .hero__subtitle {
+    font-size: 15px;
+  }
+}
