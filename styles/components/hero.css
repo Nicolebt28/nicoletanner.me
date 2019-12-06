@@ -17,8 +17,8 @@
 }
 
 .hero__title--home {
-  font-family: 'Damion', cursive;
-  font-size: 45px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 39px;
   color:#008b8b;
   text-align: left;
   margin-top: 18%;
@@ -27,8 +27,8 @@
 }
 
 .hero__title {
-  font-family: 'Damion', cursive;
-  font-size: 45px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 39px;
   color: #008b8b;
   text-align: left;
   margin-top: 18%;
@@ -37,20 +37,22 @@
 }
 
 .hero__subtitle--home {
-  font-size: 30px;
+  font-size: 24px;
+  line-height: 34px;
   color: #5C575C;
   text-align: left;
   margin-left: 26.5%;
 }
 
 .hero__subtitle {
-  font-size: 30px;
+  font-size: 24px;
+  line-height: 34px;
   color: #5C575C;
   text-align: left;
   margin-left: 26.5%;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .hero__title--home {
     margin-top: 20%;
     margin-left: 35%;
@@ -62,7 +64,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) { 
+@media (max-width: 1000px) { 
   .hero{
     height: 375px;
   }
@@ -72,9 +74,17 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .hero {
-    height: 300px;
+    height: 320px;
+  }
+
+  .hero__title {
+    font-size: 35px;
+  }
+
+  .hero__subtitle {
+    font-size: 20px;
   }
 
   .hero__title--home {
@@ -88,9 +98,17 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) { 
   .hero {
     height: 225px;
+  }
+  
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__subtitle {
+    font-size: 17px;
   }
 
   .hero__title--home {
@@ -105,17 +123,9 @@
     margin-left: 60%;
     margin-right: 5%;
   }
-
-  .hero__title {
-    font-size: 35px;
-  }
-
-  .hero__subtitle {
-    font-size: 20px;
-  }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .hero--home {
     background-image: url("hero2mobile.jpg");
     background-size: cover;
@@ -142,17 +152,6 @@
   }
 
   .hero__title {
-    font-size: 35px;
-    margin-top: 10%;
-  }
-
-  .hero__subtitle {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .hero__title {
     font-size: 25px;
     margin-top: 10%;
   }
@@ -162,80 +161,18 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media (max-width: 400px) {
   .hero {
-    height: 100px;
-  }
-  
-  .hero__title {
-    font-size: 25px;
-    margin-top: 8%;
-  }
-
-  .hero__subtitle {
-    font-size: 15px;
-  }
-}
-
-/* mobile devices */
-@media only screen and (max-width: 500px) {
-  .hero--home {
-    background-image: url("hero2mobile.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;               
-    padding-top: 40px;
-  }
-  
-  .hero {
-    padding-top: 50px;
     height: 150px;
-  }
-
-  .hero__title--home {
-    font-size: 30px;
-    margin-top: 40%;
-    margin-left: 62%;
-    margin-right: 5%;
-  }
-
-  .hero__subtitle--home {
-    font-size: 20px;
-    margin-left: 62%;
-    margin-right: 5%;
-  }
-
-  .hero__title {
-    font-size: 35px;
-    margin-top: 10%;
-  }
-
-  .hero__subtitle {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .hero__title {
-    font-size: 25px;
-    margin-top: 10%;
-  }
-
-  .hero__subtitle {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .hero {
-    height: 100px;
+    margin-top: 6.5%;
   }
   
   .hero__title {
-    font-size: 25px;
-    margin-top: 8%;
+    font-size: 20px;
+    margin-top: 6.5%;
   }
 
   .hero__subtitle {
-    font-size: 15px;
+    font-size: 12px;
   }
 }

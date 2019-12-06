@@ -1,21 +1,91 @@
-.contact {
-  background-color: #f7f7f7;
-  text-align: center;
-  padding: 1%;
-  font-size: 12px;
-  bottom: 0px;
-  position: relative;
+.contact__email {
+  margin-left: 26.5%;
+  margin-right: 25%;
 }
 
+.contact__web {
+  margin-left: 26.5%;
+  margin-right: 25%;
+}
 .contact__label {
-  font-family: 'Damion', cursive;
+  font-family: 'Palanquin Dark', sans-serif;
   font-size: 35px;
   color: #008b8b;
 }
 
 .contact__link {
   color: #5C575C;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 35px;
   text-decoration: none;
+} 
+
+@media (max-width: 1200px) {
+  .contact__email {
+    margin-left: 35%;
+    margin-right: 15%;
+  }
+
+  .contact__web {
+    margin-left: 35%;
+    margin-right: 15%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact__email {
+    margin-left: 45%;
+  }
+
+  .contact__web {
+    margin-left: 45%;
+  }
+
+  .contact__label {
+    font-size: 25px;
+  }
+  
+  .contact__link {
+    font-size: 17px;
+  } 
+}
+
+@media (max-width: 650px){
+  .contact__label {
+    font-size: 20px;
+  }
+  
+  .contact__link {
+    font-size: 13px;
+  } 
+}
+
+@media (max-width: 600px){
+  .contact__email {
+    margin-left: 60%;
+    margin-right: 10%;
+  }
+
+  .contact__web {
+    margin-left: 60%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact__email {
+    margin-left: 62%;
+    margin-right: 5%;
+  }
+
+  .contact__web {
+    margin-left: 62%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact__link {
+    font-size: 10px;
+}
 }
