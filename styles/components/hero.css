@@ -52,6 +52,19 @@
   margin-left: 26.5%;
 }
 
+.hero__image--flowers {
+  width: 20%;
+  position: absolute;
+}
+
+.hero__image--mug {
+  width: 20%;
+}
+
+.hero__image--notebook {
+  width: 20%;
+}
+
 @media (max-width: 1200px) {
   .hero__title--home {
     margin-top: 20%;
@@ -123,6 +136,7 @@
     margin-left: 60%;
     margin-right: 5%;
   }
+  
 }
 
 @media (max-width: 500px) {
