@@ -1,5 +1,5 @@
 .hero--home {
-  background-image: url("hero2.jpg");
+  background-color: #f1f1f1;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;               
@@ -9,11 +9,10 @@
 }
 
 .hero {
-  background-image: url("hero2.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 400px;
-  padding-top: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .hero__title--home {
@@ -29,11 +28,10 @@
 .hero__title {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 39px;
-  color: #008b8b;
-  text-align: left;
-  margin-top: 18%;
-  margin-left: 26.5%;
-  margin-right: 25%;
+  color: #5C575C;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 0.50em;
 }
 
 .hero__subtitle--home {
@@ -52,22 +50,30 @@
   margin-left: 26.5%;
 }
 
-.hero__image--flowers {
-  width: 20%;
-  position: absolute;
+.home__image--flowers {
+  width: 25%;
+  position: relative;
+  left: 0.2em;
+  bottom: 20em;
 }
 
-.hero__image--mug {
-  width: 20%;
+.home__image--mug-and-pen {
+  width: 17%;
+  position: relative;
+  bottom: 10em;
+  left: 20em;
 }
 
-.hero__image--notebook {
-  width: 20%;
+.home__image--notebook {
+  width: 22%;
+  position: relative;
+  right: 18em;
+  bottom: 5em;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 915px) {
   .hero__title--home {
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 35%;
     margin-right: 15%;
   }
@@ -75,23 +81,20 @@
   .hero__subtitle--home {
     margin-left: 35%;
   }
-}
-
-@media (max-width: 1000px) { 
-  .hero{
-    height: 375px;
+  
+  .home__image--mug-and-pen {
+    width: 17%;
+    bottom: 10em;
+    left: 15em;
   }
 
-  .hero__title--home {
-    margin-top: 25%;
+  .home__image--notebook {
+    right: 10em;
+    bottom: 5em;
   }
 }
 
 @media (max-width: 800px) {
-  .hero {
-    height: 320px;
-  }
-
   .hero__title {
     font-size: 35px;
   }
@@ -102,18 +105,22 @@
 
   .hero__title--home {
     margin-top: 30%;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-right: 15%;
   }
 
   .hero__subtitle--home {
-    margin-left: 45%;
+    margin-left: 40%;
+  }
+
+  .home__image--mug-and-pen {
+    bottom: 5em;
   }
 }
 
-@media (max-width: 600px) { 
-  .hero {
-    height: 225px;
+@media (max-width: 700px) { 
+  .hero  {
+    margin-top: 6em;
   }
   
   .hero__title {
@@ -127,41 +134,44 @@
   .hero__title--home {
     font-size: 30px;
     margin-top: 40%;
-    margin-left: 60%;
+    margin-left: 35%;
     margin-right: 10%;
   }
 
   .hero__subtitle--home {
     font-size: 20px;
-    margin-left: 60%;
+    margin-left: 35%;
     margin-right: 5%;
+  }
+
+  .home__image--mug-and-pen {
+    bottom: 4em;
+    left: 10em;
   }
   
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .hero--home {
-    background-image: url("hero2mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;               
     padding-top: 40px;
   }
   
   .hero {
-    padding-top: 50px;
-    height: 150px;
+    width: 400px;
   }
 
   .hero__title--home {
     font-size: 30px;
     margin-top: 40%;
-    margin-left: 62%;
+    margin-left: 30%;
     margin-right: 5%;
   }
 
   .hero__subtitle--home {
     font-size: 20px;
-    margin-left: 62%;
+    margin-left: 30%;
     margin-right: 5%;
   }
 
@@ -173,14 +183,22 @@
   .hero__subtitle {
     font-size: 15px;
   }
+
+  .home__image--notebook {
+    right: 8em;
+    bottom: 3em;
+  }
+
+  .home__image--flowers {
+    bottom: 20em;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   .hero {
-    height: 150px;
-    margin-top: 6.5%;
+    width: 300px;
   }
-  
+
   .hero__title {
     font-size: 20px;
     margin-top: 6.5%;
@@ -188,5 +206,31 @@
 
   .hero__subtitle {
     font-size: 12px;
+  }
+
+  .home__image--mug-and-pen {
+    bottom: 2em;
+    left: 5em;
+  }
+
+  .home__image--notebook {
+    right: 5em;
+    bottom: 5em;
+  }
+
+  .home__image--flowers {
+    bottom: 17em;
+  }
+}
+
+@media (max-width: 300px) {
+  .hero {
+    width: 200px;
+  }
+}
+
+@media  (max-width: 250px) {
+  .home__image--mug-and-pen {
+    left: 4em;
   }
 }
