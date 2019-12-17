@@ -18,6 +18,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  box-shadow: 4px 8px 4px #5C575C;
 }
 
 a:hover img.content__img{
