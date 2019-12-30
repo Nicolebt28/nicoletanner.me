@@ -1,83 +1,123 @@
 .education {
   display: grid;
-  grid-template-columns: 300px 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-row-gap: 5%;
-  width: 780px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
+}
+
+.education__list {
+  margin-left: 0; 
+  padding-left: 15px;
 }
 
 .education__img-codecademy {
-  grid-area: 1 / 1 / 1 / 1;
   border: 2.5px solid #008b8b;
   box-shadow: 4px 8px 0px #008b8b;
-}
-
-.education__text-codecademy {
-  grid-area: 1 / 2 / 1 / 2;
 }
 
 .education__img-FCC {
-  grid-area: 2 / 1 / 2 / 1;
   border: 2.5px solid #008b8b;
   box-shadow: 4px 8px 0px #008b8b;
-}
-
-.education__text-FCC {
-  grid-area: 2 / 2 / 2 / 2;
 }
 
 .education__img-cairn {
-  grid-area: 3 / 1 / 3 / 1;
-  border: 2.5px solid #008b8b;
-  box-shadow: 4px 8px 0px #008b8b;
-}
-
-.education__text-cairn {
-  grid-area: 3 / 2 / 3 / 2;
-}
+    border: 2.5px solid #008b8b;
+    box-shadow: 4px 8px 0px #008b8b;
+  }
 
 .education__img-cbwest {
-  grid-area: 4 / 1 / 4 / 1;
-  border: 2.5px solid #008b8b;
-  box-shadow: 4px 8px 0px #008b8b;
-}
-
-.education__text-cbwest {
-  grid-area: 4 / 2 / 4 / 2;
-}
-
-@media (max-width: 785px){
-  .education {
-    width: 700px;
+    border: 2.5px solid #008b8b;
+    box-shadow: 4px 8px 0px #008b8b;
   }
-}
-@media (max-width: 700px) {
-  .education {
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 50px;
-    width: 500px;
-  }
-}
 
-@media (max-width: 500px){
+@media (min-width: 200px) {
+    .education {
+      grid-template-columns: 80vw;
+      grid-template-rows: auto auto auto auto auto auto auto auto auto;
+      width: 80vw;
+      justify-items: center;
+    }
+  
+    .education__section-title{
+      grid-area: 1 / 1 / 1 / 1;
+    }
+
+    .education__title {
+      text-align: center;
+    }
+
+    .education__subtitle {
+      text-align: center;
+    }
+
+    .education__img-codecademy {
+      grid-area: 2 / 1 / 2 / 1;
+      margin-bottom: 30px;
+    }
+    
+    .education__text-codecademy {
+      grid-area: 3 / 1 / 3/ 1;
+      margin-bottom: 60px;
+    }
+    
+    .education__img-FCC {
+      grid-area: 4 / 1 / 4 / 1;
+      margin-bottom: 30px;
+    }
+    
+    .education__text-FCC {
+      grid-area: 5 / 1 / 5 / 1;
+      margin-bottom: 60px;
+    }
+    
+    .education__img-cairn {
+      grid-area: 6 / 1 / 6 / 1;
+      margin-bottom: 30px;
+    }
+    
+    .education__text-cairn {
+      grid-area: 7 / 1 / 7 / 1;
+      margin-bottom: 60px;
+    }
+    
+    .education__img-cbwest {
+      grid-area: 8 / 1 / 8 / 1;
+      margin-bottom: 30px;
+    }
+    
+    .education__text-cbwest {
+      grid-area: 9 / 1 / 9 / 1;
+      margin-bottom: 60px;
+    }
+  }
+
+@media (min-width: 800px) {
   .education {
-    grid-template-columns: 250px;
-    grid-template-rows: 1.1fr 150px 1.1fr 130px 1.1fr 250px 1.1fr 1fr;
-    grid-row-gap: 0%;
-    padding: 0px;
-    width: 250px;
-    justify-items: center;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    width: 780px;
+    justify-items: left;
+  }
+  
+  .education__section-title {
+    grid-area: 1 / 1 / 1 / 4;
+    justify-self: center;
+  }
+  
+  .education__title {
+    text-align: left;
+  }
+
+  .education__subtitle {
+    text-align: left;
   }
 
   .education__img-codecademy {
-    grid-area: 1 / 1 / 1 / 1;
+    grid-area: 2 / 1 / 2 / 1;
   }
   
   .education__text-codecademy {
-    grid-area: 2 / 1 / 2 / 1;
+    grid-area: 2 / 2 / 2 / 2;
   }
   
   .education__img-FCC {
@@ -85,29 +125,22 @@
   }
   
   .education__text-FCC {
-    grid-area: 4 / 1 / 4 / 1;
+    grid-area: 3 / 2 / 3 / 2;
   }
   
   .education__img-cairn {
-    grid-area: 5 / 1 / 5 / 1;
+    grid-area: 4 / 1 / 4 / 1;
   }
   
   .education__text-cairn {
-    grid-area: 6 / 1 / 6 / 1;
+    grid-area: 4 / 2 / 4 / 2;
   }
   
   .education__img-cbwest {
-    grid-area: 7 / 1 / 7 / 1;
+    grid-area: 5 / 1 / 5 / 1;
   }
   
   .education__text-cbwest {
-    grid-area: 8 / 1 / 8 / 1;
+    grid-area: 5 / 2 / 5 / 2;
   }
-}
-
-  @media (max-width: 350px){
-    .education {
-      grid-template-columns: 200px;
-      width: 200px;
-    }
 }

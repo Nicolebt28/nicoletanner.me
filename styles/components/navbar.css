@@ -9,21 +9,11 @@
 
 .navbar__name {
   color: #008b8b;
-  font-size: 45px;
-  padding-left: 20px;
-  padding-top: 20px;
   font-family: 'Damion', cursive;
   text-decoration: none;
 }
 
 .navbar__link {
-  float: left;
-  display: float;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 0.50em;
-  margin-bottom: 20px;
-  font-size: 22px;
   font-weight: bold;
   color: #008b8b;
   text-decoration: none;
@@ -31,40 +21,13 @@
   font-family: 'Palanquin Dark', sans-serif;
 }
 
-@media (max-width: 675px) {
-  .navbar__name {
-    font-size: 36px;
-    padding-left: 10px;
-  }
-  .navbar__link {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .navbar__name {
-    color: #008b8b;
-    font-size: 35px;
-    padding-left: 5px;
-    padding-top: 15px;
-  }
-  
-  .navbar__link {
-    float: left;
-    display: float;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 15px;
-    font-size: 15px;
-  }
-} 
-
-@media (max-width: 281px) {
+@media (min-width: 200px) {
   .navbar__name {
     font-size: 30px;
+  }
+
+  .navbar__nextline{
+    display: inline-block;
   }
   
   .navbar__link {
@@ -73,4 +36,37 @@
     margin-top: 15px;
     font-size: 12.5px;
   }
+}
+
+@media (min-width: 530px) {
+  .navbar__name {
+    color: #008b8b;
+    font-size: 35px;
+    padding-left: 5px;
+    padding-top: 15px;
+  }
+  
+  .navbar__link {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
 } 
+
+@media (min-width: 800px) {
+  .navbar__name {
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .navbar__link {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0.50em;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+}
+

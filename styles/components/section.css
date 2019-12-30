@@ -1,0 +1,23 @@
+.section__title {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #5C575C;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 25px;
+  letter-spacing: 0.50em;
+  }
+
+  @media (min-width: 400px){
+    .section__title {
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    }
+  }
+
+@media (min-width: 800px){
+  .section__title {
+  font-size: 35px;
+  padding-bottom: 50px;
+  }
+}
