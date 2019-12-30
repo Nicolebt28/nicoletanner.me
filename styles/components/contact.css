@@ -1,5 +1,4 @@
 .contact {
-  height: 10%;
   background-color: #f1f1f1;
 }
 
@@ -12,28 +11,20 @@
 }
 .contact__label {
   font-family: 'Palanquin Dark', sans-serif;
-  font-size: 24px;
   color: #008b8b;
+  display: inline-block;
 }
 
 .contact__link {
   color: #5C575C;
-  font-size: 20px;
-  line-height: 35px;
   text-decoration: none;
 } 
 
-@media (max-width: 800px) {
-  .contact__label {
-    font-size: 25px;
+@media (min-width: 200px) {
+  .contact {
+    height: 50px;
   }
-  
-  .contact__link {
-    font-size: 17px;
-  } 
-}
 
-@media (max-width: 650px){
   .contact__label {
     font-size: 18px;
   }
@@ -43,8 +34,16 @@
   } 
 }
 
-@media (max-width: 360px) {
-  .contact__link {
-    font-size: 10px;
+@media (min-width: 800px) {
+  .contact {
+    height: 60px;
   }
+
+  .contact__label {
+    font-size: 25px;
+  }
+  
+  .contact__link {
+    font-size: 17px;
+  } 
 }

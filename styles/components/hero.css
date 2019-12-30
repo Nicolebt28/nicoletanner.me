@@ -1,236 +1,92 @@
-.hero--home {
-  background-color: #f1f1f1;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;               
-  padding-top: 40px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-}
-
 .hero {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.hero__title--home {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-size: 39px;
-  color:#008b8b;
-  text-align: left;
-  margin-top: 18%;
-  margin-left: 26.5%;
-  margin-right: 25%;
+  background-color: #f1f1f1;    
+  box-sizing: border-box; 
+  position: relative; 
 }
 
 .hero__title {
   font-family: 'Palanquin Dark', sans-serif;
-  font-size: 39px;
-  color: #5C575C;
-  text-align: center;
-  padding-bottom: 50px;
-  letter-spacing: 0.50em;
-}
-
-.hero__subtitle--home {
-  font-size: 24px;
-  line-height: 34px;
-  color: #5C575C;
-  text-align: left;
-  margin-left: 26.5%;
+  color:#008b8b;
 }
 
 .hero__subtitle {
-  font-size: 24px;
-  line-height: 34px;
   color: #5C575C;
-  text-align: left;
-  margin-left: 26.5%;
+  font-family: 'Roboto', sans-serif;
 }
 
-.home__image--flowers {
-  width: 25%;
-  position: relative;
-  left: 0.2em;
-  bottom: 20em;
-}
-
-.home__image--mug-and-pen {
-  width: 17%;
-  position: relative;
-  bottom: 10em;
-  left: 20em;
-}
-
-.home__image--notebook {
-  width: 22%;
-  position: relative;
-  right: 18em;
-  bottom: 5em;
-}
-
-@media (max-width: 915px) {
-  .hero__title--home {
-    margin-top: 25%;
-    margin-left: 35%;
-    margin-right: 15%;
-  }
-
-  .hero__subtitle--home {
-    margin-left: 35%;
-  }
-  
-  .home__image--mug-and-pen {
-    width: 17%;
-    bottom: 10em;
-    left: 15em;
-  }
-
-  .home__image--notebook {
-    right: 10em;
-    bottom: 5em;
-  }
-}
-
-@media (max-width: 800px) {
-  .hero__title {
-    font-size: 35px;
-  }
-
-  .hero__subtitle {
-    font-size: 20px;
-  }
-
-  .hero__title--home {
-    margin-top: 30%;
-    margin-left: 40%;
-    margin-right: 15%;
-  }
-
-  .hero__subtitle--home {
-    margin-left: 40%;
-  }
-
-  .home__image--mug-and-pen {
-    bottom: 5em;
-  }
-}
-
-@media (max-width: 700px) { 
-  .hero  {
-    margin-top: 6em;
-  }
-  
-  .hero__title {
-    font-size: 30px;
-  }
-
-  .hero__subtitle {
-    font-size: 17px;
-  }
-
-  .hero__title--home {
-    font-size: 30px;
-    margin-top: 40%;
-    margin-left: 35%;
-    margin-right: 10%;
-  }
-
-  .hero__subtitle--home {
-    font-size: 20px;
-    margin-left: 35%;
-    margin-right: 5%;
-  }
-
-  .home__image--mug-and-pen {
-    bottom: 4em;
-    left: 10em;
-  }
-  
-}
-
-@media (max-width: 600px) {
-  .hero--home {
-    background-size: cover;
-    background-repeat: no-repeat;               
-    padding-top: 40px;
-  }
-  
+@media (min-width: 200px){
   .hero {
-    width: 400px;
-  }
-
-  .hero__title--home {
-    font-size: 30px;
-    margin-top: 40%;
-    margin-left: 30%;
-    margin-right: 5%;
-  }
-
-  .hero__subtitle--home {
-    font-size: 20px;
-    margin-left: 30%;
-    margin-right: 5%;
+    height: 400px;
   }
 
   .hero__title {
     font-size: 25px;
-    margin-top: 10%;
+    padding-bottom: 10px;
   }
 
   .hero__subtitle {
-    font-size: 15px;
+    font-size: 18px;
   }
 
-  .home__image--notebook {
-    right: 8em;
-    bottom: 3em;
+  .hero__text {
+    padding-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    width: 75vw;
   }
 
-  .home__image--flowers {
-    bottom: 20em;
+  .hero__images  {
+    width: 183px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__image--flowers {
+    width: 55px;
+  }
+
+  .hero__image--notebook {
+    width: 60px;
+    position: relative;
+    top: 15px;
+  }
+
+  .hero__image--mug-and-pen {
+    width: 60px;
   }
 }
 
-@media (max-width: 470px) {
-  .hero {
-    width: 300px;
+@media (min-width: 800px){
+  .hero__text {
+    padding-top: 16vh;
+    padding-bottom: 25px;
+    width: 780px;
   }
 
   .hero__title {
-    font-size: 20px;
-    margin-top: 6.5%;
+    font-size: 35px;
+    padding-bottom: 14px;
   }
 
   .hero__subtitle {
-    font-size: 12px;
+    font-size: 25px;
   }
 
-  .home__image--mug-and-pen {
-    bottom: 2em;
-    left: 5em;
+  .hero__images  {
+    width: 298px;
   }
 
-  .home__image--notebook {
-    right: 5em;
-    bottom: 5em;
+  .hero__image--flowers {
+    width: 90px;
   }
 
-  .home__image--flowers {
-    bottom: 17em;
+  .hero__image--notebook {
+    width: 100px;
+    top: 30px;
   }
-}
 
-@media (max-width: 300px) {
-  .hero {
-    width: 200px;
-  }
-}
-
-@media  (max-width: 250px) {
-  .home__image--mug-and-pen {
-    left: 4em;
+  .hero__image--mug-and-pen {
+    width: 100px;
   }
 }

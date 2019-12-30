@@ -3,15 +3,16 @@
 }
 
 .content__title {
-  font-size: 35px;
   color: #008b8b; 
   font-family: 'Palanquin Dark', sans-serif;
 }
 
 .content__subtitle {
   color: #5C575C;
-  font-size: 20px;
-  line-height: 30px;
+}
+
+.content__text {
+  color: #5C575C;
 }
 
 .content__img {
@@ -25,51 +26,48 @@ a:hover img.content__img{
   box-shadow: 4px 8px 0px #008b8b;
 }
 
-.content__text {
-  font-size: 16px;
-  line-height: 22px;
-  color: #5C575C;
-}
-
 ul li {
-  /*adds spacing to bottom between each bullet point but not line*/
   padding: 0px 0px 5px 0px;
 }
 
-@media (max-width: 700px) {
-  .content {
-    margin-top: 50px;
-  }
-
-  .content__title{
-    font-size: 25px;
-  }
-  
-  .content__subtitle {
-    font-size: 20px;
-    text-decoration: none;
-  }
-
-  .content__text  {
-    font-size: 17px;
-  } 
-
-  .content__img {
-    height: 175px;
-    width: 175px;
-  }
-}
-
-@media (max-width: 500px) {
+@media (min-width: 200px) {
   .content {
     padding-top: 0px;
   }
 
   .content__title{
     text-align: center;
+    font-size: 25px;
   }
 
   .content__subtitle{
     text-align: center;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .content__text  {
+    font-size: 16px;
+    line-height: 22px;
+  } 
+}
+
+@media (min-width: 700px) {
+  .content {
+    margin-top: 50px;
+  }
+
+  .content__title{
+    font-size: 35px;
+  }
+  
+  .content__subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .content__img {
+    height: 175px;
+    width: 175px;
   }
 }
