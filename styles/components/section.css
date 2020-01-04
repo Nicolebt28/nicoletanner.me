@@ -5,19 +5,18 @@
   text-align: center;
   padding-bottom: 25px;
   letter-spacing: 0.50em;
-  }
+}
 
-  @media (min-width: 400px){
-    .section__title {
-    font-size: 25px;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    }
-  }
+.section__title {
+  font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
 
 @media (min-width: 800px){
   .section__title {
   font-size: 35px;
+  padding-top: 60px;
   padding-bottom: 50px;
   }
 }

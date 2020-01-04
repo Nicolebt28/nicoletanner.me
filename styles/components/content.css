@@ -1,18 +1,26 @@
 .content {
   margin-top: 80px;
+  padding-top: 0px;
 }
 
 .content__title {
   color: #008b8b; 
   font-family: 'Palanquin Dark', sans-serif;
+  text-align: center;
+  font-size: 25px;
 }
 
 .content__subtitle {
   color: #5C575C;
+  text-align: center;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 .content__text {
   color: #5C575C;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .content__img {
@@ -28,28 +36,6 @@ a:hover img.content__img{
 
 ul li {
   padding: 0px 0px 5px 0px;
-}
-
-@media (min-width: 200px) {
-  .content {
-    padding-top: 0px;
-  }
-
-  .content__title{
-    text-align: center;
-    font-size: 25px;
-  }
-
-  .content__subtitle{
-    text-align: center;
-    font-size: 20px;
-    line-height: 22px;
-  }
-
-  .content__text  {
-    font-size: 16px;
-    line-height: 22px;
-  } 
 }
 
 @media (min-width: 700px) {

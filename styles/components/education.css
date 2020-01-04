@@ -3,6 +3,10 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 150px;
+  grid-template-columns: 80vw;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  width: 80vw;
+  justify-items: center;
 }
 
 .education__list {
@@ -13,82 +17,61 @@
 .education__img-codecademy {
   border: 2.5px solid #008b8b;
   box-shadow: 4px 8px 0px #008b8b;
+  grid-area: 2 / 1 / 2 / 1;
+  margin-bottom: 30px;
 }
 
 .education__img-FCC {
   border: 2.5px solid #008b8b;
   box-shadow: 4px 8px 0px #008b8b;
+  grid-area: 4 / 1 / 4 / 1;
+  margin-bottom: 30px;
 }
 
 .education__img-cairn {
     border: 2.5px solid #008b8b;
     box-shadow: 4px 8px 0px #008b8b;
+    grid-area: 6 / 1 / 6 / 1;
+    margin-bottom: 30px;
   }
 
 .education__img-cbwest {
     border: 2.5px solid #008b8b;
     box-shadow: 4px 8px 0px #008b8b;
+    grid-area: 8 / 1 / 8 / 1;
+    margin-bottom: 30px;
   }
 
-@media (min-width: 200px) {
-    .education {
-      grid-template-columns: 80vw;
-      grid-template-rows: auto auto auto auto auto auto auto auto auto;
-      width: 80vw;
-      justify-items: center;
-    }
-  
-    .education__section-title{
-      grid-area: 1 / 1 / 1 / 1;
-    }
+  .education__section-title{
+    grid-area: 1 / 1 / 1 / 1;
+  }
 
-    .education__title {
-      text-align: center;
-    }
+  .education__title {
+    text-align: center;
+  }
 
-    .education__subtitle {
-      text-align: center;
-    }
+  .education__subtitle {
+    text-align: center;
+  }
 
-    .education__img-codecademy {
-      grid-area: 2 / 1 / 2 / 1;
-      margin-bottom: 30px;
-    }
-    
-    .education__text-codecademy {
-      grid-area: 3 / 1 / 3/ 1;
-      margin-bottom: 60px;
-    }
-    
-    .education__img-FCC {
-      grid-area: 4 / 1 / 4 / 1;
-      margin-bottom: 30px;
-    }
-    
-    .education__text-FCC {
-      grid-area: 5 / 1 / 5 / 1;
-      margin-bottom: 60px;
-    }
-    
-    .education__img-cairn {
-      grid-area: 6 / 1 / 6 / 1;
-      margin-bottom: 30px;
-    }
-    
-    .education__text-cairn {
-      grid-area: 7 / 1 / 7 / 1;
-      margin-bottom: 60px;
-    }
-    
-    .education__img-cbwest {
-      grid-area: 8 / 1 / 8 / 1;
-      margin-bottom: 30px;
-    }
-    
-    .education__text-cbwest {
-      grid-area: 9 / 1 / 9 / 1;
-      margin-bottom: 60px;
-    }
+  .education__text-codecademy {
+    grid-area: 3 / 1 / 3/ 1;
+    margin-bottom: 60px;
+  }
+
+  .education__text-FCC {
+    grid-area: 5 / 1 / 5 / 1;
+    margin-bottom: 60px;
+  }
+
+  .education__text-cairn {
+    grid-area: 7 / 1 / 7 / 1;
+    margin-bottom: 60px;
+  }
+
+  .education__text-cbwest {
+    grid-area: 9 / 1 / 9 / 1;
+    margin-bottom: 60px;
   }
 
 @media (min-width: 800px) {
