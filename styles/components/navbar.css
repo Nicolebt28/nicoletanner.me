@@ -11,6 +11,11 @@
   color: #008b8b;
   font-family: 'Damion', cursive;
   text-decoration: none;
+  font-size: 30px;
+}
+
+.navbar__nextline{
+  display: inline-block;
 }
 
 .navbar__link {
@@ -19,53 +24,43 @@
   text-decoration: none;
   line-height: 4px;
   font-family: 'Palanquin Dark', sans-serif;
-}
-
-@media (min-width: 200px) {
-  .navbar__name {
-    font-size: 30px;
-  }
-
-  .navbar__nextline{
-    display: inline-block;
-  }
-  
-  .navbar__link {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 15px;
-    font-size: 12.5px;
-  }
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12.5px;
 }
 
 @media (min-width: 530px) {
+  .navbar {
+    height: 40px;
+  }
+
   .navbar__name {
     color: #008b8b;
     font-size: 35px;
     padding-left: 5px;
-    padding-top: 15px;
   }
   
   .navbar__link {
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 15px;
     font-size: 18px;
   }
 } 
 
 @media (min-width: 800px) {
+  .navbar {
+    height: 50px;
+  }
+
   .navbar__name {
     font-size: 45px;
     padding-left: 20px;
-    padding-top: 20px;
+    justify-self: center;
   }
   
   .navbar__link {
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 0.50em;
-    margin-bottom: 20px;
     font-size: 22px;
   }
 
