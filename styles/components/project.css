@@ -29,7 +29,7 @@
 
 .projects__img-timer {
   grid-area: 5 / 1 / 5 / 1;
-  margin-top: 10vh;
+  margin-top: 80px;
 } 
 
 .projects__title-timer {
@@ -88,6 +88,6 @@
   
   .projects__img-timer {
     grid-area: 3 / 3 / 3 / 3;
-    margin-top: 0vh;
+    margin-top: 0px;
   }    
 }
