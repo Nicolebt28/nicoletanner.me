@@ -2,7 +2,7 @@
   display: grid;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
   width: 80vw;
   grid-template-rows: auto auto 0.3fr 0.6fr auto 0.3fr 0.6fr;
   grid-template-columns: 80vw;
@@ -29,7 +29,7 @@
 
 .projects__img-timer {
   grid-area: 5 / 1 / 5 / 1;
-  margin-top: 80px;
+  margin-top: 50px;
 } 
 
 .projects__title-timer {

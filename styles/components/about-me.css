@@ -3,9 +3,9 @@
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
   width: 80vw;
-  grid-template-rows: auto 300px 0.1fr 1fr 0.1fr 0.40fr;
+  grid-template-rows: auto 300px 0.1fr 1fr 0.1fr auto;
   grid-template-columns: 80vw;
 }
 
@@ -27,7 +27,6 @@
 .about-me__column1 {
   text-align: left;
   padding-top: 20px;
-  padding-bottom: 20px;
   font-size: 17px;
 }
 
