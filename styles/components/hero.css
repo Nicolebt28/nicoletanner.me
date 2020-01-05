@@ -19,7 +19,7 @@
 }
 
 .hero__text {
-  padding-top: 15vh;
+  padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
@@ -48,7 +48,6 @@
 
 @media (min-width: 800px){
   .hero__text {
-    padding-top: 16vh;
     padding-bottom: 25px;
     width: 780px;
   }
