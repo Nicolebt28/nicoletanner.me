@@ -19,7 +19,7 @@
 }
 
 .hero__text {
-  padding-top: 15vh;
+  padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
@@ -27,28 +27,28 @@
 }
 
 .hero__images  {
-  width: 183px;
+  width: 243px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero__image--flowers {
-  width: 55px;
+  width: 73px;
 }
 
 .hero__image--notebook {
-  width: 60px;
+  width: 80px;
   position: relative;
-  top: 15px;
+  top: 20px;
 }
 
 .hero__image--mug-and-pen {
-  width: 60px;
+  width: 80px;
 }
 
 @media (min-width: 800px){
   .hero__text {
-    padding-top: 16vh;
+    padding-top: 100px;
     padding-bottom: 25px;
     width: 780px;
   }

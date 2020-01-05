@@ -2,7 +2,7 @@
   display: grid;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
   grid-template-columns: 80vw;
   grid-template-rows: auto auto auto auto auto auto auto auto auto;
   width: 80vw;
@@ -12,6 +12,7 @@
 .education__list {
   margin-left: 0; 
   padding-left: 15px;
+  margin-top: 8px;
 }
 
 .education__img-codecademy {
@@ -52,6 +53,7 @@
 
   .education__subtitle {
     text-align: center;
+    margin-top: 8px;
   }
 
   .education__text-codecademy {
